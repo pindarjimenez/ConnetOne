@@ -6,7 +6,7 @@
       </b-col>
     </b-row>
     <b-row>
-      <b-col cols="5">
+      <b-col cols md="5">
         <featured-announcements></featured-announcements>
         <b-row class="mt-4">
           <b-col cols>
@@ -16,13 +16,13 @@
         <pinned-announcements></pinned-announcements>
         <announcements class="mt-3"></announcements>
       </b-col>
-      <b-col cols="7" class="pl-1">
+      <b-col cols md="7" class="pl-md-1 mt-3 mt-md-0">
         <b-row>
-          <b-col cols="4" class="pr-1">
+          <b-col cols sm="4" class="pr-md-1">
             <profile></profile>
           </b-col>
-          <b-col cols="8">
-            <story></story>
+          <b-col sm="8">
+            <story class="mt-3 mt-sm-0"></story>
             <post class="mt-3"></post>
           </b-col>
         </b-row>
